@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #2864ff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Bebas Neue";
+  font-size: 30rem;
+  text-align: center;
+  opacity: 0.1;
+  margin: 0; // Remove the extra margin
+}
+
+.progress {
+  background-color: #a1bcff;
+  height: 3px;
+  width: 0;
+  position: absolute;
+  bottom: 50%; // Center the progress bar vertically
+  left: 0; // Align the progress bar to the left
+}
