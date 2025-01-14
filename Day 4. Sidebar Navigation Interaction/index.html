@@ -58,6 +58,33 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script></script>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+
+      let menuStatus = false;
+
+      const menuTL = gsap.timeline({
+        defaults: {
+          duration: 0.3,
+          ease: "power4.inOut",
+        },
+      });
+      //making sure to put the classes in correct order in the array because it will animate theme according to thier index.
+      menuTL.to(["main", "aside"], {
+        x: 0,
+        stagger: 0.2,
+      });
+      menuTL.paused(true);
+
+      menuToggle.addEventListener("click", () => {
+        if (!menuStatus) {
+          menuTL.play();
+          menuStatus = true;
+        } else {
+          menuTL.reverse();
+          menuStatus = false;
+        }
+      });
+    </script>
   </body>
 </html>
