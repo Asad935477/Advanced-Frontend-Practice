@@ -35,9 +35,10 @@ a.menu-toggle:hover:before {
 }
 
 aside {
-  background-color: #1E2327;
+  background-color: #1e2327;
   height: 100vh;
   padding: 2em 6em 2em 2em;
+  transform: translateX(-100%);
 }
 aside h3 {
   color: #fff;
@@ -49,7 +50,7 @@ aside ul {
   padding: 0;
 }
 aside ul a {
-  color: #91AEC5;
+  color: #91aec5;
   text-decoration: none;
   display: block;
   padding: 0.3em 0;
@@ -60,4 +61,5 @@ aside ul a:hover {
 
 main {
   padding: 2em;
+  transform: translateX(-200%);
 }/*# sourceMappingURL=main.css.map */
