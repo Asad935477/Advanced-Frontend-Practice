@@ -73,8 +73,18 @@
     ></script>
     <script>
       const links = gsap.utils.toArray("li a");
-      const links2 = document.querySelectorAll("li a");
-      console.log(links, links2);
+      
+      links.forEach(link => {
+        let LinkTl = gsap.timeline({
+            defaults:({
+                ease:"power4.inOut",
+                duration:.6
+            })
+
+            const headingStart = link.querySelector(".primary")     
+
+        })
+      })
     </script>
   </body>
 </html>
