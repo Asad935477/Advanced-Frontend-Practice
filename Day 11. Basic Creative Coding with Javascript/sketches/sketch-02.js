@@ -41,6 +41,7 @@ const sketch = () => {
       context.save();
       context.translate(cx, cy);
       context.rotate(-angle);
+      context.scale(randomRange(1, 3), 1);
 
       context.beginPath();
       context.rect(w * 0.5, h * 0.5, w, h);
