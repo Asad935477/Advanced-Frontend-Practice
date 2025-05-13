@@ -1,5 +1,4 @@
 const canvasSketch = require("canvas-sketch");
-const { connect } = require("tls");
 
 const settings = {
   dimensions: [1080, 1080],
@@ -23,9 +22,8 @@ const sketch = () => {
     const cx = width * 0.5;
     const cy = height * 0.5;
 
-    const w = width * 0.3;
-    const h = height * 0.3;
-
+    const w = width * 0.01;
+    const h = height * 0.1;
     let x, y;
 
     const num = 12;
@@ -39,7 +37,7 @@ const sketch = () => {
       y = cy + radius * Math.cos(angle);
 
       context.save();
-      context.translate(cx, cy);
+      context.translate(x, y);
       context.rotate(-angle);
       context.scale(randomRange(1, 3), 1);
 
