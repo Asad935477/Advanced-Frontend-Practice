@@ -1,7 +1,12 @@
 const canvasSketch = require("canvas-sketch");
+const { connect } = require("tls");
 
 const settings = {
   dimensions: [1080, 1080],
+};
+
+const degToRad = (degrees) => {
+  return (degrees / 180) * Math.PI;
 };
 
 const sketch = () => {
@@ -11,16 +16,26 @@ const sketch = () => {
 
     context.fillStyle = "black";
 
-    const x = 0;
-    const y = 0;
+    const x = width * 0.5;
+    const y = height * 0.5;
     const w = width * 0.3;
     const h = height * 0.3;
 
-    context.translate(x, y);
+    const num = 12;
 
-    context.beginPath();
-    context.rect(0, 0, w, h);
-    context.fill();
+    for (let i = 0; i < num; i++) {
+      const slice = degToRad(360 / num);
+      const angle = slice * i;
+
+      context.save();
+      context.translate(x, y);
+      context.rotate(angle);
+
+      context.beginPath();
+      context.rect(w * 0.5, h * 0.5, w, h);
+      context.fill();
+      context.restore();
+    }
   };
 };
 
