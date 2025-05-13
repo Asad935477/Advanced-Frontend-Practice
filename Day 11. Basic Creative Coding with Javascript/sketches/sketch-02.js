@@ -9,6 +9,10 @@ const degToRad = (degrees) => {
   return (degrees / 180) * Math.PI;
 };
 
+const randomRange = (minimum, maximum) => {
+  return Math.random() * (maximum - minimum) + minimum;
+};
+
 const sketch = () => {
   return ({ context, width, height }) => {
     context.fillStyle = "white";
