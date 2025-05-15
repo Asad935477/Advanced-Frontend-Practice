@@ -42,7 +42,7 @@ const sketch = () => {
       context.scale(randomRange(0.5, 3), 1);
 
       context.beginPath();
-      context.rect(w * 0.5, h * 0.5, w, h);
+      context.rect(-w * 0.5, -h * 0.5, w, h);
       context.fill();
       context.restore();
     }
