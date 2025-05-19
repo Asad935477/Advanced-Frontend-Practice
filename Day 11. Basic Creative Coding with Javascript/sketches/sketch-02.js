@@ -6,6 +6,7 @@ const settings = {
   dimensions: [1080, 1080],
 };
 
+// reference for math.degToRad
 // const degToRad = (degrees) => {
 //   return (degrees / 180) * Math.PI;
 // };
