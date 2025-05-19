@@ -1,4 +1,6 @@
 const canvasSketch = require("canvas-sketch");
+const math = require("canvas-sketch-util/math");
+const random = require("canvas-sketch-util/random");
 
 const settings = {
   dimensions: [1080, 1080],
@@ -39,7 +41,7 @@ const sketch = () => {
       context.save();
       context.translate(x, y);
       context.rotate(-angle);
-      context.scale(randomRange(0.5, 3), 2);
+      context.scale(randomRange(1, 3), 1);
 
       context.beginPath();
       context.rect(-w * 0.5, -h * 0.5, w, h);
