@@ -6,9 +6,9 @@ const settings = {
   dimensions: [1080, 1080],
 };
 
-const degToRad = (degrees) => {
-  return (degrees / 180) * Math.PI;
-};
+// const degToRad = (degrees) => {
+//   return (degrees / 180) * Math.PI;
+// };
 
 const randomRange = (minimum, maximum) => {
   return Math.random() * (maximum - minimum) + minimum;
