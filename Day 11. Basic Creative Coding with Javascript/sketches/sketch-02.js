@@ -11,6 +11,7 @@ const settings = {
 //   return (degrees / 180) * Math.PI;
 // };
 
+// reference for random.range
 // const randomRange = (minimum, maximum) => {
 //   return Math.random() * (maximum - minimum) + minimum;
 // };
