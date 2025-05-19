@@ -11,9 +11,9 @@ const settings = {
 //   return (degrees / 180) * Math.PI;
 // };
 
-const randomRange = (minimum, maximum) => {
-  return Math.random() * (maximum - minimum) + minimum;
-};
+// const randomRange = (minimum, maximum) => {
+//   return Math.random() * (maximum - minimum) + minimum;
+// };
 
 const sketch = () => {
   return ({ context, width, height }) => {
