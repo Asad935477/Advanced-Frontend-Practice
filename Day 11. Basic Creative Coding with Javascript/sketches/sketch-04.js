@@ -8,6 +8,15 @@ const sketch = () => {
   return ({ context, width, height }) => {
     context.fillStyle = "white";
     context.fillRect(0, 0, width, height);
+
+    const cols = 4;
+    const rows = 4;
+    const numCells = cols * rows;
+
+    const gridw = width / 0.8;
+    const gridh = height / 0.8;
+    const cellw = gridw / cols;
+    const cellh = gridh / rows;
   };
 };
 
