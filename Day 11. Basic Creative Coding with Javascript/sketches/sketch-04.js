@@ -17,6 +17,9 @@ const sketch = () => {
     const gridh = height / 0.8;
     const cellw = gridw / cols;
     const cellh = gridh / rows;
+
+    const margx = (width - gridw) * 0.5;
+    const margy = (height - gridh) * 0.5;
   };
 };
 
