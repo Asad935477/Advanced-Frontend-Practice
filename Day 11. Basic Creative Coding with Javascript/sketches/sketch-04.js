@@ -20,6 +20,9 @@ const sketch = () => {
 
     const margx = (width - gridw) * 0.5;
     const margy = (height - gridh) * 0.5;
+
+    for(i=0; i < numCells; i++) {
+      
   };
 };
 
