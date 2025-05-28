@@ -29,6 +29,7 @@ const sketch = () => {
       const y = margy + row * cellh;
 
       context.save();
+      context.translate(x, y);
 
       context.fillStyle = "black";
       context.fillRect(x, y, cellw, cellh);
