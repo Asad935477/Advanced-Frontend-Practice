@@ -28,6 +28,8 @@ const sketch = () => {
       const x = margx + col * cellw;
       const y = margy + row * cellh;
 
+      context.save();
+
       context.fillStyle = "black";
       context.fillRect(x, y, cellw, cellh);
 
