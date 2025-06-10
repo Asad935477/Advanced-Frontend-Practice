@@ -25,20 +25,25 @@ const sketch = () => {
       const col = i % cols;
       const row = Math.floor(i / cols);
 
-      const x = margx + col * cellw;
-      const y = margy + row * cellh;
+      const x = col * cellw;
+      const y = row * cellh;
+      const h = cellh * 0.8;
+      const w = cellw * 0.8;
 
       context.save();
       context.translate(x, y);
+      context.translate(margx, margy);
 
-      context.fillStyle = "black";
+      context.beginPath();
+      context.moveTo(w * -0.5, 0);
+      context.lineTo(w * 0.5, 0);
+      context.stroke();
+
+      context.restore();
+
       context.fillRect(x, y, cellw, cellh);
 
       context.fillStyle = "white";
-      context.font = "bold 48px sans-serif";
-      context.textAlign = "center";
-      context.textBaseline = "middle";
-      context.fillText(i + 1, x + cellw / 2, y + cellh / 2);
     }
   };
 };
