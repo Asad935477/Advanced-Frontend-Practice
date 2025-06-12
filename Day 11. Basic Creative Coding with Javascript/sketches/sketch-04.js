@@ -85,6 +85,7 @@ const createPane = () => {
   folder.addInput(params, "freq", { min: -0.01, max: 0.01 });
   folder.addInput(params, "amp", { min: 0, max: 1 });
   folder.addInput(params, "animate");
+  folder.addInput(params, "frame", { min: 0, max: 999 });
 };
 createPane();
 
