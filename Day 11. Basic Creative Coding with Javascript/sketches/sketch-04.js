@@ -16,6 +16,7 @@ const params = {
   freq: 0.001,
   amp: 0.2,
   frame: 0,
+  animate: true,
 };
 
 const sketch = () => {
