@@ -43,7 +43,7 @@ const sketch = () => {
       const h = cellh * 0.8;
       const w = cellw * 0.8;
 
-      const n = random.noise2D(x + frame * 50, y, 0.001);
+      const n = random.noise2D(x + frame * 50, y, params.freq);
       const angle = n * Math.PI * 0.2;
       // const scale = ((n + 1) / 2) * 30;
       // const scale = (n * 0.5 + 0.5) * 30;
