@@ -84,6 +84,7 @@ const createPane = () => {
   folder = pane.addFolder({ title: "Noise" });
   folder.addInput(params, "freq", { min: -0.01, max: 0.01 });
   folder.addInput(params, "amp", { min: 0, max: 1 });
+  folder.addInput(params, "animate");
 };
 createPane();
 
