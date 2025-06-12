@@ -15,6 +15,7 @@ const params = {
   scaleMax: 30,
   freq: 0.001,
   amp: 0.2,
+  frame: 0,
 };
 
 const sketch = () => {
