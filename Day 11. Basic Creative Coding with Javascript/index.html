@@ -1,22 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>CanvasSketch + ControlKit</title>
-    <style>
-      body {
-        margin: 0;
-        overflow: hidden;
-      }
-      canvas {
-        display: block;
-      }
-    </style>
-  </head>
+<html>
   <body>
-    <!-- ControlKit from CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/controlkit@0.0.6/build/controlKit.min.js"></script>
-    <!-- canvas-sketch and utils from Skypack -->
-    <script type="module" src="./sketch.js"></script>
+    <canvas width="600" height="600"></canvas>
   </body>
+
+  <script>
+    let canvas = document.querySelector("canvas");
+    let context = canvas.getContext("2d");
+
+    // array visualization
+
+    const height = 60;
+    const width = 60;
+    const gap = 20;
+    let x, y;
+
+    for (let i = 0; i < 5; i++) {
+      for (let j = 0; j < 5; j++) {
+        x = 100 + (width + gap) * i;
+        y = 100 + (height + gap) * j;
+
+        context.lineWidth = 4;
+        context.beginPath();
+        context.rect(x, y, width, height);
+        context.stroke();
+
+        if (Math.random() > 0.5) {
+          context.beginPath();
+          context.rect(x + 8, y + 8, width - 16, height - 16);
+          context.stroke();
+        }
+      }
+    }
+  </script>
 </html>
