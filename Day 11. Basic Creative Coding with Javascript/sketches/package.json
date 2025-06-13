@@ -2,7 +2,7 @@
   "name": "sketches",
   "version": "1.0.0",
   "description": "",
-  "main": "sketch-01.js",
+  "main": "sketch-04.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,6 @@
   "dependencies": {
     "canvas-sketch": "^0.7.7",
     "canvas-sketch-util": "^1.10.0",
-    "controlkit": "^0.1.9",
-    "tweakpane": "^4.0.5"
+    "tweakpane": "^3.0.1"
   }
 }
