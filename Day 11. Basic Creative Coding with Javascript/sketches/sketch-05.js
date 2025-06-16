@@ -1,12 +1,13 @@
-const canvasSketch = require('canvas-sketch');
+const canvasSketch = require("canvas-sketch");
 
 const settings = {
-  dimensions: [ 2048, 2048 ]
+  dimensions: [1080, 1080],
 };
 
 const sketch = () => {
+  f;
   return ({ context, width, height }) => {
-    context.fillStyle = 'white';
+    context.fillStyle = "white";
     context.fillRect(0, 0, width, height);
   };
 };
