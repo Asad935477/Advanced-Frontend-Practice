@@ -1,0 +1,17 @@
+{
+  "name": "cg-webgl-interactive-gradient",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "leva": "^0.10.0",
+    "three": "^0.178.0",
+    "vite": "^7.0.2"
+  }
+}
