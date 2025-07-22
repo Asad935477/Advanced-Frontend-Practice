@@ -1,0 +1,100 @@
+{
+  "feeds": [
+    {
+      "img": "/src/assets/project-images/img1.jpg",
+      "date": "10 2456 7823",
+      "name": "Aurora Creative® Emblems",
+      "copy": ""
+    },
+    {
+      "img": "/src/assets/project-images/img2.jpg",
+      "date": "78 5940 1265",
+      "name": "Breeze Symbols",
+      "copy": "The essence of Nordic Breeze, captured through evocative symbols. An exploration into the serene beauty of the northernmost landscapes."
+    },
+    {
+      "img": "/src/assets/project-images/img3.jpg",
+      "date": "92 0134 6758",
+      "name": "Oslo Moods® Glyphs",
+      "copy": ""
+    },
+    {
+      "img": "/src/assets/project-images/img4.jpg",
+      "date": "56 8410 2379",
+      "name": "Helsinki Imagery Icons",
+      "copy": ""
+    },
+    {
+      "img": "/src/assets/project-images/img6.jpg",
+      "date": "87 5012 3468",
+      "name": "Scandinavian Pulse® Marks",
+      "copy": ""
+    },
+    {
+      "img": "/src/assets/project-images/img5.jpg",
+      "date": "23 1456 8907",
+      "name": "Baltic Patterns",
+      "copy": ""
+    },
+    {
+      "img": "/src/assets/project-images/img7.jpg",
+      "date": "12 6789 0456",
+      "name": "Nordic Diagrams",
+      "copy": ""
+    },
+    {
+      "img": "/src/assets/project-images/img8.jpg",
+      "date": "90 2134 5678",
+      "name": "Viking Voyage® Prints",
+      "copy": "Incorporating ancient maritime history with modern design perspectives. A nostalgic yet fresh take on the Viking spirit."
+    },
+    {
+      "img": "/src/assets/project-images/img9.jpg",
+      "date": "45 6789 0123",
+      "name": "Borealis Stencils",
+      "copy": ""
+    },
+    {
+      "img": "/src/assets/project-images/img10.jpg",
+      "date": "67 8901 2345",
+      "name": "Arctic Aura",
+      "copy": ""
+    },
+    {
+      "img": "/src/assets/project-images/img11.jpg",
+      "date": "34 5678 9012",
+      "name": "Fjord Fables® Imprints",
+      "copy": "Drawing inspiration from age-old tales and landscapes, Fjord Fables is a visual storybook. Capturing the whispers of mountains and rivers."
+    },
+    {
+      "img": "/src/assets/project-images/img1.jpg",
+      "date": "78 9012 3456",
+      "name": "Polar Purity",
+      "copy": ""
+    },
+    {
+      "img": "/src/assets/project-images/img2.jpg",
+      "date": "89 0123 4567",
+      "name": "Glacial Glow® Seals",
+      "copy": ""
+    },
+    {
+      "img": "/src/assets/project-images/img3.jpg",
+      "date": "12 3456 7890",
+      "name": "Mystic Badges",
+      "copy": "A deep dive into the mysteries of the midnight sun. An artful interpretation of the phenomena that lights up the polar nights."
+    },
+    {
+      "img": "/src/assets/project-images/img4.jpg",
+      "date": "23 4567 8901",
+      "name": "Nordic Nebula Stamps",
+      "copy": ""
+    },
+    {
+      "img": "/src/assets/project-images/img5.jpg",
+      "date": "34 5678 9012",
+      "name": "Siberian Silence",
+      "copy": ""
+    }
+  ]
+}

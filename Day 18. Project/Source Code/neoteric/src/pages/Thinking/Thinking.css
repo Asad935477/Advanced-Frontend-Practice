@@ -1,0 +1,54 @@
+.thinking {
+  background: var(--color-text);
+  padding-top: 50px;
+  color: var(--color-bg);
+}
+
+.think {
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
+  gap: 20px;
+}
+
+.think > div {
+  flex: 1;
+}
+
+h1.index-h1 {
+  font-weight: 400;
+  font-size: 64px;
+}
+
+h2.think-h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.think-col:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.think-col:nth-child(1) {
+  display: flex;
+}
+
+.think-col:nth-child(1) > div {
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .think {
+    flex-direction: column-reverse;
+  }
+
+  .think-col:nth-child(1) {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .think-col:nth-child(2) {
+    justify-content: flex-start;
+  }
+}

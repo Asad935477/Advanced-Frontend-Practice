@@ -1,0 +1,28 @@
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px auto 20px auto;
+}
+
+.footer {
+  padding-bottom: 20px;
+}
+
+.footer.footer-dark * {
+  color: var(--color-bg);
+}
+
+.footer p {
+  line-height: 100%;
+}
+
+@media (max-width: 900px) {
+  .footer .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #footer-contact {
+    margin-top: 25px;
+  }
+}

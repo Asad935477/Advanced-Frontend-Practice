@@ -1,0 +1,64 @@
+{
+  "awards": [
+    {
+      "client": "Astral",
+      "category": "astral.org",
+      "year": "2021",
+      "name": "Webby Awards, People's Voice Winner"
+    },
+    {
+      "client": "Nexa",
+      "category": "nexadesigns.com",
+      "year": "2022",
+      "name": "UX Design Awards, Gold"
+    },
+    {
+      "client": "Solar Shift",
+      "category": "solarshift.io",
+      "year": "2020",
+      "name": "Awwwards, Site of the Month"
+    },
+    {
+      "client": "Terra",
+      "category": "terrawave.co",
+      "year": "2021",
+      "name": "CSS Design Awards, Special Kudos"
+    },
+    {
+      "client": "Echo Rise",
+      "category": "echorise.net",
+      "year": "2021",
+      "name": "Digital Design Awards"
+    },
+    {
+      "client": "Lumen Craft",
+      "category": "lumencraft.org",
+      "year": "2022",
+      "name": "Interactive Media Awards, Best in Class"
+    },
+    {
+      "client": "Flux",
+      "category": "fluxfusion.co",
+      "year": "2020",
+      "name": "Web Excellence Awards, Best Homepage"
+    },
+    {
+      "client": "Zenith",
+      "category": "zenithflow.io",
+      "year": "2021",
+      "name": "Web Guru Awards, Designer of the Year"
+    },
+    {
+      "client": "Lunar Trail",
+      "category": "lunartrail.com",
+      "year": "2021",
+      "name": "Pixel Awards, Best Visual Design"
+    },
+    {
+      "client": "Ethereum",
+      "category": "etheriumpulse.net",
+      "year": "2022",
+      "name": "Design Innovation Awards"
+    }
+  ]
+}
