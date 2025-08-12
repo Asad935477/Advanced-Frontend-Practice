@@ -1,0 +1,62 @@
+.contact-info {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+
+p.sec-contact {
+  color: var(--color-text-secondary);
+}
+
+.contact-info .contact-info-col:nth-child(1) {
+  flex: 4;
+}
+
+.contact-info .contact-info-col:nth-child(2) {
+  flex: 2;
+  display: flex;
+  gap: 20px;
+}
+
+.contact-info .contact-info-col:nth-child(2) > div {
+  flex: 1;
+}
+
+.team {
+  width: 100%;
+  display: flex;
+  margin: 25px 0 100px 0;
+}
+
+.team > div {
+  flex: 1;
+}
+
+.team-col {
+  display: flex;
+  gap: 25px;
+}
+
+.dev-name {
+  margin: 10px 0 10px 0;
+}
+
+.dev-pos {
+  margin-bottom: 10px;
+}
+
+.dev-pos p,
+.dev-contact p {
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 900px) {
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .team,
+  .team-col {
+    flex-direction: column;
+  }
+}
