@@ -1,0 +1,69 @@
+{
+  "projects": [
+    {
+      "img": "/src/assets/project-images/img1.jpg",
+      "title": "Eunoia Aesthetics",
+      "category": "Web Design"
+    },
+    {
+      "img": "/src/assets/project-images/img2.jpg",
+      "title": "Zenith Visions",
+      "category": "UI/UX"
+    },
+    {
+      "img": "/src/assets/project-images/img3.jpg",
+      "title": "Lumina Essence II",
+      "category": "Creative Direction"
+    },
+    {
+      "img": "/src/assets/project-images/img4.jpg",
+      "title": "Aether Dynamics",
+      "category": "Photography"
+    },
+    {
+      "img": "/src/assets/project-images/img5.jpg",
+      "title": "Nova Landscapes",
+      "category": "Web Development"
+    },
+    {
+      "img": "/src/assets/project-images/img6.jpg",
+      "title": "Sylphlike Elegance",
+      "category": "Graphic Design"
+    },
+    {
+      "img": "/src/assets/project-images/img7.jpg",
+      "title": "Chronicle Echoes",
+      "category": "Cinematography"
+    },
+    {
+      "img": "/src/assets/project-images/img8.jpg",
+      "title": "Serenity Frames",
+      "category": "Branding"
+    },
+    {
+      "img": "/src/assets/project-images/img9.jpg",
+      "title": "Mystic Interfaces",
+      "category": "Digital Marketing"
+    },
+    {
+      "img": "/src/assets/project-images/img10.jpg",
+      "title": "Pixelated Dreams",
+      "category": "Web Design"
+    },
+    {
+      "img": "/src/assets/project-images/img11.jpg",
+      "title": "Spectrum Creatives",
+      "category": "Creative Direction"
+    },
+    {
+      "img": "/src/assets/project-images/img1.jpg",
+      "title": "Visionary Clicks",
+      "category": "Photography"
+    },
+    {
+      "img": "/src/assets/project-images/img2.jpg",
+      "title": "Eunoia Aesthetics",
+      "category": "Web Design"
+    }
+  ]
+}
