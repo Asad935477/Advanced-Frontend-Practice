@@ -1,0 +1,37 @@
+.navbar .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar-items {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-item {
+  padding: 10px;
+}
+
+.navbar-logo {
+  font-weight: 500;
+}
+
+.navbar-dark {
+  background: var(--color-text);
+}
+
+.navbar-dark * {
+  color: var(--color-bg);
+}
+
+@media (max-width: 900px) {
+  .navbar-items {
+    gap: 0;
+  }
+
+  .navbar-item {
+    padding: 5px;
+  }
+}
