@@ -1,7 +1,8 @@
 ﻿# Advanced-Frontend-Practice-2025
  - creative coding (mesh genaration)
- - creative shader practices
+ - creative shaders practices
  - GSAP Animation Exercises
+
 
 
 
